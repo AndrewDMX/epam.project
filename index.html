@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/cat.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>NFT.MEME</title>
+</head>
+<body>
+    <header class="header">
+        <nav>
+         <div class="nav-wrapper">
+                <div class="logo-wrapper">
+                    <img src="icons/cat.png" class="logo">
+                    <span class="logo-text">NFT.MEME</span>
+                </div>
+                <div class="nav-menu-wrapper">
+                    <div class="nav-menu">
+                        <span class="nav-menu-item">Products</span>
+                        <span class="nav-menu-item">Company</span>
+                        <span class="nav-menu-item">Learn</span>
+                        <span class="nav-menu-item active">Sales</span>
+                        <i class="nav-menu-icon"></i>
+                    </div>
+                </div>
+                <img src="icons/burger-menu.png" class="burger-menu-img burger-block">
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <div class="drop-down-wrapper">
+        <div id="drop-down">
+            <h1 class="nav-menu-item drop-text">Products</h1>
+            <h1 class="nav-menu-item drop-text">Company</h1>
+            <h1 class="nav-menu-item drop-text">Learn</h1>
+            <h1 class="nav-menu-item drop-text active">Sales</h1>
+        </div>
+        </div>
+        <section>
+            <div class="form-wrapper">
+                <div class="nft-wrapper">
+                    <div class="nft-img">
+                        <div class="nft-card-info">
+                            <div class="nft"></div>
+                        </div>
+                        <div class="nft-info">
+                            <div class="nft-info-leftpart">
+                                <h1 id="tag">Ukrainian warrior</h1>
+                                <div class="created-by-info">
+                                    <h3>Created by</h3> <p class="creator">Ukraine</p>
+                                </div>
+                                <div class="creator-links-block">
+                                    <div class="creator-links">
+                                        <img src="icons/discord.svg" class="links">
+                                        <img src="icons/twitter.svg" class="links">
+                                    </div>
+                                    <div>
+                                        <a href="" id="l-text">
+                                            <div class="link-author-block">
+                                                <img src="icons/link.svg" id="link"><span>Token</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-info-rightpart">
+                                <h4 id="nft-info-rightpart-quetion">How it works?</h4>
+                                <p id="nft-info-rightpart-text">NFT is a digital asset that represents real-world objects like art, music, in-game items and videos. They are bought and sold online, frequently with cryptocurrency, and they are generally encoded with the same underlying software as many cryptos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-part">
+                    <div class="form-card">
+                        <h2>NFT BUY MENU</h2>
+                        <form class="registration-form" action="submit">
+                            <label for="name" class="form-label">Name</label>
+                            <input class="form-input" type="text" id="name" name="name" placeholder="Enter name">
+                            <label for="email" class="form-label">Email</label>
+                            <input class="form-input" type="text" id="email" name="email" placeholder="Enter email">
+                            <label for="wallet" class="form-label">Wallet</label>
+                            <input class="form-input" type="text" id="wallet" name="wallet" placeholder="ERC Wallet">
+                            <label for="select" class="form-label">Select NFT to claim</label>
+                            <select class="form-input" id="select" required>
+                                <option value="nft1">Ukrainian warrior</option>
+                                <option value="nft2">Luka Show</option>
+                                <option value="nft3">Four clowns</option>
+                                <option value="nft4">Pleasure</option>
+                                <option value="nft5">Ptn</option>
+                            </select>
+                            <button type="text" class="submit">submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-src-block"> 
+                <img src="icons/inst.png" class="footer-img">
+                <img src="icons/fcb.png" class="footer-img">
+                <img src="icons/tg.png" class="footer-img">
+                <img src="icons/linke.png" class="footer-img">
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
